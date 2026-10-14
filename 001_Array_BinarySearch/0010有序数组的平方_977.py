@@ -10,12 +10,12 @@
 # 输出：[4, 9, 9, 49, 121]
 
 #想法1：直接对这些数组进行平方后再用方法sort进行排序——>时间复杂度O(nlogn)
-def sort_way(nums):
-    list_square = []
-    for times in range(len(nums)):
-        list_square.append(nums[times]**2)
-    list_square.sort()#O(n log n)
-    print(list_square)
+# def sort_way(nums):
+#     list_square = []
+#     for times in range(len(nums)):
+#         list_square.append(nums[times]**2)
+#     list_square.sort()#O(n log n)
+#     print(list_square)
 
 #想法2：用二分法。1.找到正负数的交接处 2.一个指针左边，一个指针右边进行比较大小后插入
 # def binary_way(nums):
