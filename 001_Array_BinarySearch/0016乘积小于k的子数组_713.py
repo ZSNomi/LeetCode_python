@@ -80,5 +80,6 @@ if __name__ == "__main__":
 
     print(multiplication(nums,k))
 
-
+# num += right - left + 1 的核心含义是：
+# 固定右端点 right 时，以 right 结尾、且乘积严格小于 k 的连续子数组个数，正好等于当前窗口长度 right - left + 1。
 
